@@ -30,7 +30,6 @@ function init() {
             name: 'name',
             validate: nameInput => {
                 if (nameInput) {
-                    console.log(nameInput);
                     return true;
                 } else {
                     console.log('Please introduce your name');
@@ -44,7 +43,6 @@ function init() {
             name: 'id',
             validate: idInput => {
                 if (idInput) {
-                    console.log(idInput);
                     return true;
                 } else {
                     console.log('Please introduce your id number');
@@ -58,7 +56,6 @@ function init() {
             name: 'email',
             validate: emailInput => {
                 if (emailInput) {
-                    console.log(emailInput);
                     return true;
                 } else {
                     console.log('Please introduce your email');
@@ -72,7 +69,6 @@ function init() {
             name: 'officeNumber',
             validate: officeNumberInput => {
                 if (officeNumberInput) {
-                    console.log(officeNumberInput);
                     return true;
                 } else {
                     console.log('Please introduce your office number');
@@ -83,11 +79,8 @@ function init() {
     ];
     inquirer.prompt(managerInput)
         .then(function (answer) {
-            console.log(answer);
             const manager = new Manager(answer.name, answer.id, answer.email, answer.officeNumber);
             managerArr.push(manager);
-            console.log(manager);
-
             if (managerArr !== []) {
                 chooseRole();
             }
@@ -108,7 +101,6 @@ function chooseRole() {
             choices: ['Engineer', 'Intern', 'I have done adding team members'],
             validate: roleInput = () => {
                 if (roleInput) {
-                    console.log(roleInput);
                     return true;
                 } else {
                     console.log('Please choose one of the options');
@@ -121,14 +113,12 @@ function chooseRole() {
 
     inquirer.prompt(chooseRole)
         .then(function (roleAnswer) {
-            console.log(roleAnswer + "Here");
             addNewTeamMember(roleAnswer);
         });
 }
 
 
 function addNewTeamMember(roleAnswer) {
-
 
     // === Logic - Creating Team Group===
 
@@ -143,7 +133,6 @@ function addNewTeamMember(roleAnswer) {
                     name: 'name',
                     validate: nameInput => {
                         if (nameInput) {
-                            console.log(nameInput);
                             return true;
                         } else {
                             console.log('Please introduce your name');
@@ -157,7 +146,6 @@ function addNewTeamMember(roleAnswer) {
                     name: 'id',
                     validate: idInput => {
                         if (idInput) {
-                            console.log(idInput);
                             return true;
                         } else {
                             console.log('Please introduce your id number');
@@ -171,7 +159,6 @@ function addNewTeamMember(roleAnswer) {
                     name: 'email',
                     validate: emailInput => {
                         if (emailInput) {
-                            console.log(emailInput);
                             return true;
                         } else {
                             console.log('Please introduce your email');
@@ -185,7 +172,6 @@ function addNewTeamMember(roleAnswer) {
                     name: 'github',
                     validate: githubInput => {
                         if (githubInput) {
-                            console.log(githubInput);
                             return true;
                         } else {
                             console.log('Please introduce your Github user name');
@@ -196,10 +182,8 @@ function addNewTeamMember(roleAnswer) {
             ];
             inquirer.prompt(engineerInput)
                 .then(function (engAnswer) {
-                    console.log(engAnswer);
                     const engineer = new Engineer(engAnswer.name, engAnswer.id, engAnswer.email, engAnswer.github);
                     engineerArr.push(engineer);
-                    console.log(engineerArr);
                     chooseRole();
                 });
             break;
@@ -215,7 +199,6 @@ function addNewTeamMember(roleAnswer) {
                     name: 'name',
                     validate: nameInput => {
                         if (nameInput) {
-                            console.log(nameInput);
                             return true;
                         } else {
                             console.log('Please introduce your name');
@@ -229,7 +212,6 @@ function addNewTeamMember(roleAnswer) {
                     name: 'id',
                     validate: idInput => {
                         if (idInput) {
-                            console.log(idInput);
                             return true;
                         } else {
                             console.log('Please introduce your id number');
@@ -243,7 +225,6 @@ function addNewTeamMember(roleAnswer) {
                     name: 'email',
                     validate: emailInput => {
                         if (emailInput) {
-                            console.log(emailInput);
                             return true;
                         } else {
                             console.log('Please introduce your email');
@@ -257,7 +238,6 @@ function addNewTeamMember(roleAnswer) {
                     name: 'school',
                     validate: schoolInput => {
                         if (schoolInput) {
-                            console.log(schoolInput);
                             return true;
                         } else {
                             console.log('Please introduce the name of your school');
@@ -268,10 +248,8 @@ function addNewTeamMember(roleAnswer) {
             ];
             inquirer.prompt(internInput)
                 .then(function (internAnswer) {
-                    console.log(internAnswer);
                     const intern = new Intern(internAnswer.name, internAnswer.id, internAnswer.email, internAnswer.school);
                     internArr.push(intern);
-                    console.log(internArr);
                     chooseRole();
                 });
             break;
