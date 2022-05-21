@@ -1,9 +1,9 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateHTML = require('./resources/htmlTemplate');
-const renderManager = require('./resources/managerHTML');
-const renderEngineer = require('./resources/engineerHTML');
-const renderIntern = require('./resources/internHTML');
+const generateHTML = require('./src/htmlTemplate');
+const renderManager = require('./src/managerHTML');
+const renderEngineer = require('./src/engineerHTML');
+const renderIntern = require('./src/internHTML');
 
 
 // Require lib data.
@@ -253,14 +253,14 @@ function addNewTeamMember(roleAnswer) {
                 },
                 {
                     type: 'input',
-                    message: 'What school do you attend?',
+                    message: 'Where are you studying?',
                     name: 'school',
                     validate: schoolInput => {
                         if (schoolInput) {
                             console.log(schoolInput);
                             return true;
                         } else {
-                            console.log('Please introduce your schools name');
+                            console.log('Please introduce the name of your school');
                             return false;
                         }
                     }
@@ -329,7 +329,7 @@ const generatedHTML = () => {
 
 function getHtmlTeam() {
     const html = generatedHTML();
-    fs.writeFile('./output/index.html', html, (err) => {
+    fs.writeFile('./dist/index.html', html, (err) => {
         if (err) {
             console.log(err)
         } else {
