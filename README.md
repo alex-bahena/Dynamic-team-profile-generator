@@ -44,5 +44,5 @@ You don't need to still this program although you'll need to have Node.JS, to in
   ## Video:
   ### [Watch the video](https://drive.google.com/file/d/1vbW5DFR0WPc9xNLEWIrcepT_kDaYzKoZ/view?usp=sharing)
   ## Questions:
-  - Github Profile: https://github.com/AlejandroBahSan
-  - For aditional questions hmu via email: alejandro.bahsa@gmail.com
+  - Github Profile: https://github.com/alex-bahena
+  - If you run into any questions, please don't hesitate to contact me: alex.bahena@gmail.com
