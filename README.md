@@ -2,7 +2,6 @@
 
 ## Table of Contents
 
-  - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Technology Stack](#technology-stack)
   - [Installation:](#installation)
