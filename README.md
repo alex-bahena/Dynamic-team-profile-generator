@@ -1,26 +1,24 @@
 # Dynamic Team Profile Generator
- ### MIT 
- ### https://choosealicense.com/licenses/mit/
- ### ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
 
-  # Content table:
-  - ## [About](#about)
-    - ## [Technology Stack](#technology-stack)
-  - ## [Installation](#installation)
-    - ## [Setting Up the Project](#setting-up-the-project)
-  - ## [Using the Application](#using-the-application)
-  - ## [License](#license)
-  - ## [Contribution](#collaborators)
-  - ## [Video](#video)
-  - ## [Question](#questions)
-
+  ### Content table:
+  - #### [About](#about)
+    - #### [Technology Stack](#technology-stack)
+  - #### [Installation](#installation)
+    - #### [Setting Up the Project](#setting-up-the-project)
+  - #### [Using the Application](#using-the-application)
+  - #### [Video](#video)
+  - #### [License](#license)
+  - #### [Contribution](#collaborators)
+  - #### [Question](#questions)
 
 ## About
+<p id="about">
 This Node.js command-line application is a comprehensive solution designed for software engineering teams to manage and display employee information efficiently. The project's completion has resulted in a robust application that takes in specific details of team members and generates a well-organized HTML webpage. Each team member's summary is presented in a clear and concise manner, allowing for quick and easy access to individual profiles.
 
 Throughout the development process, a test-driven development (TDD) approach was adopted to ensure the maintainability and reliability of the codebase. Every functional component of the application has been meticulously tested, with all units passing their respective tests, signifying the high quality and stability of the application.
 
 As the application is designed for internal use and does not require deployment, its functionality and the successful results of the testing process have been demonstrated in a walkthrough video. This video serves as both a visual guide to the application's features and a testament to its seamless operation and effectiveness.
+</p>
 
 <p align="center">
   <img width="560" height="auto" src="https://github.com/alex-bahena/Dynamic-team-profile-generator/blob/master/Assets/img/10-object-oriented-programming-homework-demo.png"> <br/>
@@ -30,12 +28,15 @@ As the application is designed for internal use and does not require deployment,
 
 ## Technology Stack
 
+<p id="technology-stack">
+ 
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 - ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 - ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 - ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
-
+  
+</p>
 
 
 ## Installation:
