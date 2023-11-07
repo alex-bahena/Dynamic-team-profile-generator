@@ -1,24 +1,42 @@
 # Dynamic Team Profile Generator
 
-  ### Content table:
-  - #### [About](#about)
-    - #### [Technology Stack](#technology-stack)
-  - #### [Installation](#installation)
-    - #### [Setting Up the Project](#setting-up-the-project)
-  - #### [Using the Application](#using-the-application)
-  - #### [Video](#video)
-  - #### [License](#license)
-  - #### [Contribution](#collaborators)
-  - #### [Question](#questions)
+## Table of Contents
+
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Technology Stack](#technology-stack)
+  - [Installation:](#installation)
+    - [Getting Started with Node.js Installation](#getting-started-with-nodejs-installation)
+    - [For macOS Users:](#for-macos-users)
+      - [1. **Install Homebrew**:](#1-install-homebrew)
+      - [2. **Install Node.js:**](#2-install-nodejs)
+      - [3. **Verify Installation:**](#3-verify-installation)
+    - [For Windows Users:](#for-windows-users)
+      - [1. **Download the Installer:**](#1-download-the-installer)
+      - [2. **Run the Installer:**](#2-run-the-installer)
+      - [3. **Verify Installation:**](#3-verify-installation-1)
+  - [Setting Up the Project](#setting-up-the-project)
+    - [1. Cloning the Repository](#1-cloning-the-repository)
+    - [2. Navigating to the Repository](#2-navigating-to-the-repository)
+    - [3. Installing Dependencies](#3-installing-dependencies)
+    - [Running the Application](#running-the-application)
+  - [Using the Application](#using-the-application)
+    - [Completion](#completion)
+  - [License:](#license)
+    - [MIT](#mit)
+    - [Copyright (c)  ](#copyright-c--)
+  - [Collaborators:](#collaborators)
+  - [Video:](#video)
+    - [Visual guide](#visual-guide)
+  - [Questions:](#questions)
+
 
 ## About
-<p id="about">
+
 This Node.js command-line application is a comprehensive solution designed for software engineering teams to manage and display employee information efficiently. The project's completion has resulted in a robust application that takes in specific details of team members and generates a well-organized HTML webpage. Each team member's summary is presented in a clear and concise manner, allowing for quick and easy access to individual profiles.
-
 Throughout the development process, a test-driven development (TDD) approach was adopted to ensure the maintainability and reliability of the codebase. Every functional component of the application has been meticulously tested, with all units passing their respective tests, signifying the high quality and stability of the application.
-
 As the application is designed for internal use and does not require deployment, its functionality and the successful results of the testing process have been demonstrated in a walkthrough video. This video serves as both a visual guide to the application's features and a testament to its seamless operation and effectiveness.
-</p>
+
 
 <p align="center">
   <img width="560" height="auto" src="https://github.com/alex-bahena/Dynamic-team-profile-generator/blob/master/Assets/img/10-object-oriented-programming-homework-demo.png"> <br/>
@@ -28,15 +46,11 @@ As the application is designed for internal use and does not require deployment,
 
 ## Technology Stack
 
-<p id="technology-stack">
- 
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 - ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 - ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 - ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
-  
-</p>
 
 
 ## Installation:
@@ -208,3 +222,4 @@ After you've finished building your team or choose to exit the program, a index.
   
   - Github Profile: https://github.com/alex-bahena
   - If you run into any questions, please don't hesitate to contact me: alex.bahena@gmail.com
+
