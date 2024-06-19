@@ -224,5 +224,5 @@ After you've finished building your team or choose to exit the program, a index.
   ## Questions:
   
   - Github Profile: https://github.com/alex-bahena
-  - If you run into any questions, please don't hesitate to contact me: alex.bahena@gmail.com
+  - If you run into any questions, please don't hesitate to contact me: alex.bahena.ca@gmail.com
 
